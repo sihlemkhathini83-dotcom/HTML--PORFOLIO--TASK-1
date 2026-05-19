@@ -1,0 +1,167 @@
+﻿/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: white;
+}
+
+.logo {
+    border: 2px solid black;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* HERO SECTION */
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+    .hero img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+    .hero-text h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    .hero-text p {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .hero-text button {
+        padding: 15px 40px;
+        font-size: 18px;
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+        cursor: pointer;
+    }
+
+/* ABOUT SECTION */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    background-color: #f5f5f5;
+}
+
+.about-text {
+    width: 50%;
+}
+
+    .about-text h2 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .about-text p {
+        font-size: 20px;
+        line-height: 1.8;
+        margin-bottom: 20px;
+    }
+
+    .about-text button {
+        padding: 15px 30px;
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 18px;
+    }
+
+/* PROFILE IMAGE BOX */
+
+.profile-image-box {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #ddd;
+}
+
+    .profile-image-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    background-color: #efefef;
+}
+
+.footer-box {
+    width: 30%;
+}
+
+    .footer-box h3 {
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .footer-box p {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+/* MAP BOX */
+
+.map-box {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    border: 3px solid #ccc;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+    .map-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
